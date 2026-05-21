@@ -1,4 +1,4 @@
-module github.com/PenguinMod/PenguinMod-BasicApi
+module github.com/TutelMod/TutelMod-BasicApi
 
 go 1.21.3
 

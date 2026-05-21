@@ -47,15 +47,15 @@ func (d GHCommitsByDate) Less(i, j int) bool {
 
 func getRecentsCommits() {
 	githubCommitApis := []string{
-		"https://api.github.com/repos/PenguinMod/penguinmod.github.io/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-Vm/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-Home/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-Blocks/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-Paint/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-Packager/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-Render/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-ExtensionsGallery/commits?per_page=50",
-		"https://api.github.com/repos/PenguinMod/PenguinMod-BackendApi/commits?per_page=50",
+			"https://api.github.com/repos/TutelMod/tutelmod.github.io/commits?per_page=50",
+			"https://api.github.com/repos/TutelMod/TutelMod-Vm/commits?per_page=50",
+			"https://api.github.com/repos/TutelMod/TutelMod-Home/commits?per_page=50",
+			"https://api.github.com/repos/TutelMod/TutelMod-Blocks/commits?per_page=50",
+		"https://api.github.com/repos/TutelMod/TutelMod-Paint/commits?per_page=50",
+		"https://api.github.com/repos/TutelMod/TutelMod-Packager/commits?per_page=50",
+		"https://api.github.com/repos/TutelMod/TutelMod-Render/commits?per_page=50",
+		"https://api.github.com/repos/TutelMod/TutelMod-ExtensionsGallery/commits?per_page=50",
+		"https://api.github.com/repos/TutelMod/TutelMod-BackendApi/commits?per_page=50",
 	}
 
 	var newRecentCommits []GHApiCommit
